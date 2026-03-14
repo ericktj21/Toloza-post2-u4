@@ -1,0 +1,23 @@
+# Registro de Usuario con Validación ES6
+
+**Estudiante:** Erick Mauricio Toloza Jara
+**Módulo:** Programación Web - Unidad 4
+
+## Descripción del Proyecto
+Este proyecto es un formulario de registro interactivo que implementa validación del lado del cliente en tiempo real. Utiliza Vanilla JavaScript (ES6) junto con la Constraint Validation API nativa del navegador para garantizar la integridad de los datos antes de su envío.
+
+## Tecnologías y Conceptos Aplicados
+* **Constraint Validation API:** Uso de `validity.valueMissing`, `tooShort`, `patternMismatch` y `typeMismatch`.
+* **ES6:** Implementación estricta de variables (`const`/`let`), Arrow Functions, Template Literals y Desestructuración de Objetos.
+* **Eventos del DOM:** Intercepción del evento `submit` con `e.preventDefault()`, y validación en tiempo real utilizando los eventos `blur` e `input`.
+* **Manipulación de Clases:** Uso de `classList` para proporcionar retroalimentación visual al usuario (bordes rojos/verdes y mensajes de error dinámicos).
+
+## Instrucciones de Ejecución
+1. Clonar el repositorio.
+2. Abrir el archivo `index.html` en el navegador (preferiblemente Google Chrome).
+3. Interactuar con el formulario ingresando datos válidos e inválidos para observar las validaciones en tiempo real y el indicador de fortaleza de contraseña.
+
+## Captura de Pantalla 1
+![image alt]()
+## Captura de Pantalla 2
+![image alt]()

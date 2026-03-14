@@ -1,0 +1,22 @@
+* { box-sizing: border-box; font-family: Arial, sans-serif; }
+body { background-color: #f4f7f6; display: flex; justify-content: center; padding: 40px 20px; margin: 0; }
+
+.contenedor { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); width: 100%; max-width: 450px; }
+h1 { text-align: center; color: #333; margin-top: 0; }
+
+.campo-grupo { display: flex; flex-direction: column; margin-bottom: 15px; position: relative; }
+label { font-weight: bold; margin-bottom: 5px; color: #555; font-size: 14px; }
+input { padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px; outline: none; transition: 0.3s; }
+
+input.invalido { border-color: #e53e3e; background-color: #fff5f5; }
+input.valido { border-color: #38a169; background-color: #f0fff4; }
+
+.msg-error { color: #e53e3e; font-size: 12px; margin-top: 5px; display: none; }
+.msg-error.visible { display: block; }
+
+button { background-color: #065A82; color: white; border: none; padding: 12px; border-radius: 4px; cursor: pointer; font-size: 16px; font-weight: bold; width: 100%; transition: 0.3s; margin-top: 10px; }
+button:hover { background-color: #04405e; }
+
+.oculto { display: none !important; }
+#mensaje-exito { background-color: #c6f6d5; color: #22543d; padding: 15px; border-radius: 4px; text-align: center; margin-top: 15px; font-weight: bold; }
+#fortaleza { font-size: 12px; margin-top: 5px; font-weight: bold; display: block; }
